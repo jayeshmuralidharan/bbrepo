@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.darbytelematics",
+    "module": "core-message-consumer",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "vr52ckmzprepvevrvvr3iwr3bu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-mongodb",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-amqp",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.darbytelematics",
+          "module": "rest-call-utils",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.darbytelematics",
+          "module": "core-utils",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.darbytelematics",
+          "module": "cache-core-utils",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.darbytelematics",
+          "module": "reverse-geocode-client",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-message-consumer-1.0.jar",
+          "url": "core-message-consumer-1.0.jar",
+          "size": 32473,
+          "sha512": "194079f66da479595c88ed02b7783c0b33b71559f805898973590f31235e92dd46ae940dbec0c39e2f4648163290db845c792c3166cb7592f4f19b87f795c493",
+          "sha256": "7ac1af6cad9eb241e4030a0398d417d92a423983dacde38c1057ea51e1e65640",
+          "sha1": "616740eafdeb5090690ea18f94ec8ff907b0e52d",
+          "md5": "5e3055bf537d90662b6b9f3710121410"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-mongodb",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-amqp",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.darbytelematics",
+          "module": "rest-call-utils",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.darbytelematics",
+          "module": "core-utils",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.darbytelematics",
+          "module": "cache-core-utils",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.darbytelematics",
+          "module": "reverse-geocode-client",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-message-consumer-1.0.jar",
+          "url": "core-message-consumer-1.0.jar",
+          "size": 32473,
+          "sha512": "194079f66da479595c88ed02b7783c0b33b71559f805898973590f31235e92dd46ae940dbec0c39e2f4648163290db845c792c3166cb7592f4f19b87f795c493",
+          "sha256": "7ac1af6cad9eb241e4030a0398d417d92a423983dacde38c1057ea51e1e65640",
+          "sha1": "616740eafdeb5090690ea18f94ec8ff907b0e52d",
+          "md5": "5e3055bf537d90662b6b9f3710121410"
+        }
+      ]
+    }
+  ]
+}

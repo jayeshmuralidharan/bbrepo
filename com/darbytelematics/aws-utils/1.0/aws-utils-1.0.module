@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.darbytelematics",
+    "module": "aws-utils",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "k2zf7x6b75ehtaqte3qpi6vvae"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-s3",
+          "version": {
+            "requires": "1.11.325"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aws-utils-1.0.jar",
+          "url": "aws-utils-1.0.jar",
+          "size": 5497,
+          "sha512": "9c48017a74ecbe4b0e06650e40b9e51f7b552938d2f7c40b2a745e14b8a7d506e8300245dfe58b8499dc1e7afb9921234c4018022136d9791654073fb2e32e1b",
+          "sha256": "27bdd7874b5cccbbb16fe53644bca3cf7a3d08f1ed61194d195483a8349ed8e6",
+          "sha1": "cec49e3636d6f2fa57c2cb78b4cc8940ef9e6fa8",
+          "md5": "965d3cc2098ba81ea8c43e9f77f28941"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-s3",
+          "version": {
+            "requires": "1.11.325"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aws-utils-1.0.jar",
+          "url": "aws-utils-1.0.jar",
+          "size": 5497,
+          "sha512": "9c48017a74ecbe4b0e06650e40b9e51f7b552938d2f7c40b2a745e14b8a7d506e8300245dfe58b8499dc1e7afb9921234c4018022136d9791654073fb2e32e1b",
+          "sha256": "27bdd7874b5cccbbb16fe53644bca3cf7a3d08f1ed61194d195483a8349ed8e6",
+          "sha1": "cec49e3636d6f2fa57c2cb78b4cc8940ef9e6fa8",
+          "md5": "965d3cc2098ba81ea8c43e9f77f28941"
+        }
+      ]
+    }
+  ]
+}

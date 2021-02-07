@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.darbytelematics",
+    "module": "api-request-logger",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "32b57xpiyzfcfpwtnlpcrsziii"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.darbytelematics",
+          "module": "core-utils",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-request-logger-1.0.jar",
+          "url": "api-request-logger-1.0.jar",
+          "size": 3760,
+          "sha512": "2d00f560ffbcb0c6845cd455002834a304660e82a1b5b832f3a771159957456f17ce2b672bd63b469b8a606187d29994ab82dd4d646c26d48553a2d248be7b7e",
+          "sha256": "88b7a492051c4877c2e8ef9705bc8cf798d1ce2129529e06b99f9f73f8f8cc6d",
+          "sha1": "17b33c400a8c91eca1020bb2bab0d54c144c9485",
+          "md5": "d80120992f9b42d5b71b06cc686df607"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.darbytelematics",
+          "module": "core-utils",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-request-logger-1.0.jar",
+          "url": "api-request-logger-1.0.jar",
+          "size": 3760,
+          "sha512": "2d00f560ffbcb0c6845cd455002834a304660e82a1b5b832f3a771159957456f17ce2b672bd63b469b8a606187d29994ab82dd4d646c26d48553a2d248be7b7e",
+          "sha256": "88b7a492051c4877c2e8ef9705bc8cf798d1ce2129529e06b99f9f73f8f8cc6d",
+          "sha1": "17b33c400a8c91eca1020bb2bab0d54c144c9485",
+          "md5": "d80120992f9b42d5b71b06cc686df607"
+        }
+      ]
+    }
+  ]
+}

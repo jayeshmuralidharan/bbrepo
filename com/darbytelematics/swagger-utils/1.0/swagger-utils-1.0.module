@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.darbytelematics",
+    "module": "swagger-utils",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "2cftiy2mzzcczgoxnxqwdikkqe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.springfox",
+          "module": "springfox-swagger2",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "io.springfox",
+          "module": "springfox-swagger-ui",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "swagger-utils-1.0.jar",
+          "url": "swagger-utils-1.0.jar",
+          "size": 2560,
+          "sha512": "fc91223dca44fd4e706d4dc04d659eaee8c36dcaafb380c2560122e281764bb6388be83258166e8d81885f78d7147685e3114d8f7c2a93efb84cf4918b3de1db",
+          "sha256": "788dfc0ba488445009675c809cacb0498a202a39acaf3b00642dce2b2e71a182",
+          "sha1": "379a96c8a4299587eda209db4689df96ea64fd78",
+          "md5": "08b984f5e76abe72ba1e407f6a2a8bf2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.springfox",
+          "module": "springfox-swagger2",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "io.springfox",
+          "module": "springfox-swagger-ui",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "swagger-utils-1.0.jar",
+          "url": "swagger-utils-1.0.jar",
+          "size": 2560,
+          "sha512": "fc91223dca44fd4e706d4dc04d659eaee8c36dcaafb380c2560122e281764bb6388be83258166e8d81885f78d7147685e3114d8f7c2a93efb84cf4918b3de1db",
+          "sha256": "788dfc0ba488445009675c809cacb0498a202a39acaf3b00642dce2b2e71a182",
+          "sha1": "379a96c8a4299587eda209db4689df96ea64fd78",
+          "md5": "08b984f5e76abe72ba1e407f6a2a8bf2"
+        }
+      ]
+    }
+  ]
+}
